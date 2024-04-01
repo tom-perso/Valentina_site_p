@@ -1,64 +1,64 @@
 .therapies-section {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centers the child elements (therapies) horizontally */
-  max-width: 1000px; /* Adjust based on your layout needs */
-  margin: 0 auto; /* Center the section */
-  padding: 1rem; /* Add some padding for spacing */
+  max-width: 1200px; /* Adjust as needed */
+  align-items: center; 
+  margin: auto;
 }
 
 .therapy {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center align items for a cleaner look */
-  width: 100%; /* Take full width to use the entire screen space */
-  margin-bottom: 2rem; /* Add more space between therapy sections */
+  align-items: center; /* Center the items on mobile */
+  width: 70%;
+}
+
+.therapy h5 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; /* Reduces space between title and text */
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
 }
 
 .therapy img {
-  width: auto; /* Maintain original width */
-  max-width: 100%; /* Ensure it doesn't exceed its container */
-  height: 128px; /* Maintain aspect ratio */
-  margin-bottom: 1rem; /* Space between image and title */
+  margin-bottom: 0em; /* Space between image and title */
+  align-items: right;
 }
 
-.therapy-title h5 {
-  font-size: 1.2rem; /* Slightly larger font size for readability */
-  text-align: center; /* Center-align the titles */
-  margin: 0.5rem 0; /* Reduce space around the title for a tighter look */
-}
-
+/* Align text left under the title in each box */
 .therapy p {
-  text-align: left; /* Improve readability of the text */
-  font-size: 0.9rem; /* Adjust font size for mobile readability */
-  padding: 0 5%; /* Add padding to prevent text from touching the edges */
+  text-align: justify; /* Justifies the text */
+  font-size: 1.25em; /* Adjust the font size to be slightly smaller */
+  margin-top: 0;
 }
 
-/* Responsive adjustments for larger screens */
+.therapy-title {
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+  /*width: 45%; /* Adjust width as needed */
+  /*height: px; /* Adjust height as needed */
+  /* Add any additional styling for the title container here */
+  
+}
+
 @media (min-width: 768px) {
   .therapies-section {
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around; /* Distribute sections evenly */
+    max-width: 1000px; /* Adjust as needed */
+    margin: auto;
+    justify-content: space-around;
   }
 
   .therapy {
-    flex-direction: row; /* Arrange image and text side by side */
-    align-items: center; /* Align items at the start */
-    width: 45%; /* Adjust the therapy section width */
+    align-items: flex-start; /* Align items to the start, including images and titles */
+    flex-direction: column;
+    align-items: center; /* Center the items on mobile */
+    width: 45%;
   }
 
   .therapy img {
-    width: 50%; /* Adjust image width in relation to the therapy section */
-    margin-right: 2rem; /* Space between image and text */
-  }
-
-  .therapy-title h5 {
-    font-size: 1.5rem; /* Increase title font size for larger screens */
-  }
-
-  .therapy p {
-    font-size: 1rem; /* Adjust paragraph font size for better readability */
-    padding: 0; /* Remove padding for text alignment with the image */
+    align-self: center; /* Center the image in the flex container */
   }
 }
