@@ -9,50 +9,53 @@
   display: flex;
   flex-direction: column;
   align-items: center; /* Center the items on mobile */
-  width: 45%;
-}
-
-.therapy h5 {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em; /* Reduces space between title and text */
-  align-items: center; /* Vertically center the content */
-  justify-content: center; /* Horizontally center the content */
+  width: 100%; /* Full width on smaller screens */
+  margin-bottom: 20px; /* Add some space between therapies */
 }
 
 .therapy img {
+  max-width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
   margin-bottom: 0em; /* Space between image and title */
-  align-items: right;
 }
 
-/* Align text left under the title in each box */
-.therapy p {
-  text-align: justify; /* Justifies the text */
-  font-size: 1.25em; /* Adjust the font size to be slightly smaller */
-  margin-top: 0;
-}
-
-.therapy-title {
+.therapy-title, .therapy h5 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; /* Reduces space between title and text */
   display: flex;
   align-items: center; /* Vertically center the content */
   justify-content: center; /* Horizontally center the content */
-  /*width: 45%; /* Adjust width as needed */
-  /*height: px; /* Adjust height as needed */
-  /* Add any additional styling for the title container here */
-  
+}
+
+.therapy p {
+  text-align: justify; /* Justifies the text */
+  font-size: 1em; /* Adjust the font size for mobile */
+  margin-top: 0;
+  padding: 0 10px; /* Add some padding on the sides for smaller screens */
 }
 
 @media (min-width: 768px) {
   .therapies-section {
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
   }
 
   .therapy {
-    align-items: flex-start; /* Align items to the start, including images and titles */
+    width: 45%; /* Adjust width on larger screens */
+    align-items: flex-start; /* Align items to the start on larger screens */
   }
 
   .therapy img {
     align-self: center; /* Center the image in the flex container */
   }
-}
 
+  .therapy-title, .therapy h5 {
+    font-size: 1.25em; /* Adjust the font size back for larger screens */
+  }
+
+  .therapy p {
+    font-size: 1.25em; /* Adjust paragraph font size back for larger screens */
+    padding: 0; /* Remove padding for larger screens */
+  }
+}
