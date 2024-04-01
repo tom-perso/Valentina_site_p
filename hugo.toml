@@ -4,7 +4,12 @@ title = 'Valentina Marcó del Pont Bonfil'
 publishDir = "public"
 
 [params]
-DefaultImage = "/images/default.jpg"
+DefaultImage = "/Valentina_site_p/images/default.jpg"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
 
 [[menu.main]]
   name = "About"
