@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Psycologa integrativa on Valentina Marcó del Pont Bonfil</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Psycologa integrativa on Valentina Marcó del Pont Bonfil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Aug 2021 11:11:11 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Sun, 15 Aug 2021 11:11:11 +0100</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>Si estás interesado(a) en solicitarme una terapia, por favor envía un mensaje a valmarcodelpont@gmail.com. Iniciaremos con una sesión de 20 minutos gratuita para comprender mejor tus necesidades y explicarte cómo funciona el proceso terapéutico conmigo.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 01 Aug 2021 11:11:11 +0100</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>“ Como psicoterapeuta, tengo una amplia formación en psicología y especializaciones en terapia existencialista con perspectiva de género. Con más de treinta pacientes a lo largo de mi carrera, mi enfoque integrativo me permite adaptarme a las necesidades individuales de cada uno, brindándoles un apoyo psicológico completo y compasivo para superar sus desafíos emocionales y promover su bienestar integral. Más sobre mí: Licenciada en Psicología por la Universidad Iberoamericana Ciudad de México Especialista en Psicoterapia Existencialista con Perspectiva de Género e Inclusión en Centro de Salud Mental y Género Máster en Psicoterapia Integrativa en Institut Mensalus de Barcelona Psicoterapeuta EMDR.</description>
+    </item>
+  </channel>
+</rss>

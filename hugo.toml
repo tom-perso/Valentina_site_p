@@ -1,0 +1,18 @@
+baseURL = 'http://suavemente.es/'
+languageCode = 'en-us'
+title = 'Valentina Marcó del Pont Bonfil'
+publishDir = "public"
+
+[params]
+DefaultImage = "/images/default.jpg"
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 1
+
+[[menu.main]]
+  name = "Contacto"
+  url = "/contact"
+  weight = 3
+
