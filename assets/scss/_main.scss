@@ -491,3 +491,33 @@
 .site-menu a:hover {
   color: var(--accent-color);
 }
+
+
+/* Add this at the bottom of your existing CSS */
+
+@media screen and (max-width: 768px) {
+  .therapies-section {
+    display: block; /* Stack therapies vertically */
+  }
+
+  .therapy {
+    width: 100%; /* Ensure therapies take full width */
+    margin-bottom: 20px; /* Add some space between therapies */
+  }
+
+  .therapy img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline styling */
+    margin: 0 auto; /* Center images */
+  }
+
+  .therapy-title h5 {
+    font-size: 18px; /* Increase font size for legibility */
+  }
+
+  .therapy p {
+    font-size: 16px; /* Adjust paragraph font size for better readability */
+    padding: 0 10px; /* Add some padding on the sides */
+  }
+}
