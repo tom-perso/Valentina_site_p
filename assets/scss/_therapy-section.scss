@@ -18,7 +18,7 @@
 .therapy img {
   width: auto; /* Maintain original width */
   max-width: 100%; /* Ensure it doesn't exceed its container */
-  height: auto; /* Maintain aspect ratio */
+  height: 128px; /* Maintain aspect ratio */
   margin-bottom: 1rem; /* Space between image and title */
 }
 
@@ -29,7 +29,7 @@
 }
 
 .therapy p {
-  text-align: justify; /* Improve readability of the text */
+  text-align: left; /* Improve readability of the text */
   font-size: 0.9rem; /* Adjust font size for mobile readability */
   padding: 0 5%; /* Add padding to prevent text from touching the edges */
 }
@@ -45,7 +45,7 @@
   .therapy {
     flex-direction: row; /* Arrange image and text side by side */
     align-items: center; /* Align items at the start */
-    width: 70%; /* Adjust the therapy section width */
+    width: 45%; /* Adjust the therapy section width */
   }
 
   .therapy img {
