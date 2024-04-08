@@ -2,12 +2,16 @@
   <!-- localhost: no ga -->
 {{ else }}
   {{ if .Site.Params.ga_id }}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{- .Site.Params.ga_id -}}"></script>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-56NB7BDQDZ"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', '{{- .Site.Params.ga_id -}}');
+    
+      gtag('config', 'G-56NB7BDQDZ');
     </script>
   {{ end}}
 {{ end }}
+
+
